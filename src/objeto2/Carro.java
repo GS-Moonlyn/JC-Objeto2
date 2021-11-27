@@ -1,6 +1,6 @@
 package objeto2;
 
-public class Carro {
+public class Carro extends Thread{
 	
 	private String nome;
 	private int min = 10;
@@ -13,11 +13,6 @@ public class Carro {
 		this.nome = nome;
 		this.chegada = chegada;
 		start();
-	}
-
-	private void start() {
-		// TODO Auto-generated method stub
-		
 	}
 
 	public void run() {
