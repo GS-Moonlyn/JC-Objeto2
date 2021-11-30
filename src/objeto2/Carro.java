@@ -10,7 +10,6 @@ public class Carro extends Thread{
 	private int tempo = 0;
 	private int posicaoInicial = 0;
 	private int velocidadeInicial = 0;
-	private Thread t = Thread.currentThread();
 	
 	
 	//Construtor

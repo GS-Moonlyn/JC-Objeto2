@@ -6,10 +6,7 @@ public class mainApp {
 		
 		public static void main(String[] args) {
 			
-			    Tela game = new Tela();
-			    
-			    
-			    
+			    //Tela game = new Tela();
 				
 				int NCarro;
 				NCarro = 5;
